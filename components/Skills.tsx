@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SKILLS_DATA } from '../constants';
 import SectionTitle from './SectionTitle';
@@ -6,7 +5,7 @@ import SectionTitle from './SectionTitle';
 const Skills: React.FC = () => {
     return (
         <section id="skills" className="py-24 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
-            <SectionTitle number="01" title="Minhas Habilidades" />
+            <SectionTitle number="02" title="Minhas Habilidades" />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                 {SKILLS_DATA.map((category) => (
                     <div key={category.title} className="bg-primary p-6 rounded-lg shadow-lg hover:shadow-accent/10 transition-shadow duration-300">
