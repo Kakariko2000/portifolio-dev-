@@ -60,9 +60,15 @@ const Header: React.FC = () => {
 
     const handleNavClick = (event: React.MouseEvent<HTMLAnchorElement>, href: string) => {
         event.preventDefault();
-        const targetElement = document.querySelector(href);
-        if (targetElement) {
-            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Verifica se o href é um seletor válido antes de usar querySelector
+        if (href && href !== '#') {
+            const targetElement = document.querySelector(href);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        } else if (href === '#') {
+            // Se for apenas '#', rola para o topo da página
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         setIsOpen(false); // Fecha o menu mobile ao clicar
     };
@@ -71,7 +77,7 @@ const Header: React.FC = () => {
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-primary/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
             <div className="container mx-auto px-6 md:px-12">
                 <div className="flex justify-between items-center h-20">
-                    <a href="#" onClick={(e) => handleNavClick(e, '#')} aria-label="Página Inicial" className="text-2xl font-bold text-accent font-mono hover:opacity-80 transition-opacity">
+                    <a href="#about" onClick={(e) => handleNavClick(e, '#about')} aria-label="Página Inicial" className="text-2xl font-bold text-accent font-mono hover:opacity-80 transition-opacity">
                         &lt;DEV /&gt;
                     </a>
 
