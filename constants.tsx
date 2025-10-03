@@ -73,18 +73,4 @@ export const PROJECTS_DATA: Project[] = [
             tech: 'React foi escolhido pela sua eficiência na manipulação do DOM. D3.js ofereceu a flexibilidade necessária para gráficos complexos. O deploy foi feito na Vercel, aproveitando a integração contínua com o GitHub para atualizações rápidas.',
         },
     },
-    {
-        id: 3,
-        title: 'Blog Pessoal com CMS',
-        description: 'Um blog com renderização estática (SSG) para alta performance e SEO, integrado a um Headless CMS.',
-        imageUrl: 'https://picsum.photos/seed/project3/800/600',
-        tags: ['Next.js', 'TypeScript', 'GraphQL', 'Tailwind CSS', 'Contentful'],
-        liveUrl: '#',
-        repoUrl: '#',
-        caseStudy: {
-            problem: 'Desenvolver um blog que fosse extremamente rápido, otimizado para motores de busca (SEO) e fácil de gerenciar o conteúdo sem precisar de conhecimento técnico. A performance de carregamento inicial era a prioridade máxima.',
-            solution: 'Optei por Next.js pela sua capacidade de geração de sites estáticos (SSG). Isso pré-renderiza todas as páginas do blog em tempo de build, resultando em um carregamento quase instantâneo. Integrei com o Contentful (Headless CMS) via GraphQL, permitindo que o conteúdo seja gerenciado de forma independente. O design foi criado com Tailwind CSS, focando em legibilidade e acessibilidade.',
-            tech: 'Next.js foi fundamental para a estratégia de performance e SEO. GraphQL facilitou a busca de dados do CMS de forma eficiente. O site foi implantado na Netlify, que possui um excelente suporte para sites estáticos e funções serverless.',
-        },
-    },
 ];
