@@ -66,7 +66,7 @@ export const PROJECTS_DATA: Project[] = [
         imageUrl: 'https://picsum.photos/seed/project1/800/600',
         tags: ['React', 'TypeScript', 'Redux Toolkit', 'Tailwind CSS', 'Stripe API'],
         liveUrl: '#',
-        repoUrl: 'https://github.com/Kakariko2000/react-e-commerce-spa',
+        repoUrl: '#',
         caseStudy: {
             problem: 'Criar uma experiência de compra online rápida e fluida, que funcione bem em qualquer dispositivo, sem a necessidade de recarregar a página. O desafio era gerenciar o estado complexo do carrinho e dos produtos de forma eficiente.',
             solution: 'Desenvolvi um SPA usando React e TypeScript para garantir tipagem segura. O gerenciamento de estado global foi implementado com Redux Toolkit, simplificando a lógica do carrinho. A interface foi construída com componentes reutilizáveis em Tailwind CSS, focando em um design mobile-first. A integração com a API do Stripe garantiu um processo de pagamento seguro.',
