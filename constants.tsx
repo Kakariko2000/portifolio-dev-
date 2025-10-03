@@ -63,7 +63,7 @@ export const PROJECTS_DATA: Project[] = [
         id: 2,
         title: 'Wanderson Seven',
         description: 'Um site profissional e moderno para um artista, apresentando seu portfólio, biografia e informações de contato. Desenvolvido com foco em design responsivo e experiência do usuário.',
-        imageUrl: '/images/wanderson-seven.png', // Você pode precisar adicionar esta imagem na pasta public/images
+        imageUrl: '/images/wanderson-seven.png', // Caminho da imagem atualizado
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Design Responsivo'],
         liveUrl: 'https://wanderson-seven.vercel.app/',
         repoUrl: 'https://github.com/Kakariko2000/wanderson-seven',
