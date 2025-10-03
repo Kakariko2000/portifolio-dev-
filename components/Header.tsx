@@ -111,7 +111,11 @@ const Header: React.FC = () => {
             {/* Mobile Menu */}
             <aside className={`fixed top-0 right-0 h-full w-[75vw] max-w-sm bg-primary shadow-2xl transform transition-transform duration-300 ease-in-out z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden flex flex-col`}>
                 <div className="flex justify-end p-6 h-20 items-center">
-                     <button onClick={() => setIsOpen(false)} aria-label="Fechar menu" className="text-accent">
+                     <button 
+                        onClick={() => setIsOpen(false)} 
+                        aria-label="Fechar menu" 
+                        className="text-accent relative z-50" // Adicionado relative e z-50
+                    >
                         <XIcon />
                     </button>
                 </div>
