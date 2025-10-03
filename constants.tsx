@@ -59,7 +59,20 @@ export const PROJECTS_DATA: Project[] = [
             tech: 'React para a interface do usuário, TypeScript para segurança de tipo, Tailwind CSS para estilização rápida e responsiva, e Context API para gerenciamento de estado. O projeto foi bundlado com Vite para um desenvolvimento ágil e builds otimizados.',
         },
     },
-    // O projeto com id: 2 foi removido
+    {
+        id: 2,
+        title: 'Wanderson Seven',
+        description: 'Um site profissional e moderno para um artista, apresentando seu portfólio, biografia e informações de contato. Desenvolvido com foco em design responsivo e experiência do usuário.',
+        imageUrl: '/images/wanderson-seven.png', // Você pode precisar adicionar esta imagem na pasta public/images
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Design Responsivo'],
+        liveUrl: 'https://wanderson-seven.vercel.app/',
+        repoUrl: 'https://github.com/Kakariko2000/wanderson-seven',
+        caseStudy: {
+            problem: 'Criar uma presença online elegante e funcional para um artista, que destaque seu trabalho e seja fácil de navegar em qualquer dispositivo. O desafio era apresentar o conteúdo de forma visualmente atraente e performática.',
+            solution: 'Desenvolvi um site one-page com React e TypeScript, utilizando Tailwind CSS para um estilo limpo e responsivo. A navegação suave entre as seções foi implementada com scroll behavior. O site foi otimizado para carregamento rápido e SEO, garantindo que o trabalho do artista seja facilmente descoberto.',
+            tech: 'React para a estrutura do componente, TypeScript para tipagem, Tailwind CSS para estilização e Vite para o ambiente de desenvolvimento e build. Deploy na Vercel para integração contínua e hospedagem eficiente.',
+        },
+    },
     {
         id: 3,
         title: 'Dashboard de Análise de Dados',
