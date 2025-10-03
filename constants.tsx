@@ -52,27 +52,14 @@ export const PROJECTS_DATA: Project[] = [
         imageUrl: '/images/shopsphere-ecommerce.png',
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Context API', 'Vite'],
         liveUrl: 'https://react-e-commerce-eosin-pi.vercel.app/',
-        repoUrl: 'https://github.com/Kakariko2000/react-e-commerce-spa', // Link do repositório atualizado
+        repoUrl: 'https://github.com/Kakariko2000/react-e-commerce-spa',
         caseStudy: {
             problem: 'Desenvolver uma loja virtual moderna e responsiva, com uma experiência de usuário intuitiva para navegação e compra de produtos. O desafio era criar um sistema de gerenciamento de estado eficiente para o carrinho de compras e filtros.',
             solution: 'Construí a aplicação utilizando React e TypeScript para uma base de código robusta e escalável. O Tailwind CSS foi empregado para um design responsivo e altamente personalizável. O gerenciamento de estado foi feito com a Context API do React, simplificando a lógica do carrinho e dos filtros de produtos. A arquitetura modular facilita a adição de novas funcionalidades.',
             tech: 'React para a interface do usuário, TypeScript para segurança de tipo, Tailwind CSS para estilização rápida e responsiva, e Context API para gerenciamento de estado. O projeto foi bundlado com Vite para um desenvolvimento ágil e builds otimizados.',
         },
     },
-    {
-        id: 2,
-        title: 'Plataforma de E-commerce SPA',
-        description: 'Uma Single Page Application completa para uma loja online, com catálogo de produtos, carrinho de compras e checkout.',
-        imageUrl: 'https://picsum.photos/seed/project1/800/600',
-        tags: ['React', 'TypeScript', 'Redux Toolkit', 'Tailwind CSS', 'Stripe API'],
-        liveUrl: '#',
-        repoUrl: '#', // Link do repositório removido para este projeto
-        caseStudy: {
-            problem: 'Criar uma experiência de compra online rápida e fluida, que funcione bem em qualquer dispositivo, sem a necessidade de recarregar a página. O desafio era gerenciar o estado complexo do carrinho e dos produtos de forma eficiente.',
-            solution: 'Desenvolvi um SPA usando React e TypeScript para garantir tipagem segura. O gerenciamento de estado global foi implementado com Redux Toolkit, simplificando a lógica do carrinho. A interface foi construída com componentes reutilizáveis em Tailwind CSS, focando em um design mobile-first. A integração com a API do Stripe garantiu um processo de pagamento seguro.',
-            tech: 'Utilizei Vite como ferramenta de build pela sua velocidade e HMR (Hot Module Replacement) instantâneo. React Testing Library e Jest foram usados para garantir a confiabilidade dos componentes críticos, como o fluxo de adição ao carrinho.',
-        },
-    },
+    // O projeto com id: 2 foi removido
     {
         id: 3,
         title: 'Dashboard de Análise de Dados',
