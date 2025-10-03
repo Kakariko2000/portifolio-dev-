@@ -47,6 +47,20 @@ export const SKILLS_DATA: SkillCategory[] = [
 export const PROJECTS_DATA: Project[] = [
     {
         id: 1,
+        title: 'ShopSphere E-commerce',
+        description: 'Uma plataforma de e-commerce completa, permitindo aos usuários navegar por produtos, adicionar itens ao carrinho e finalizar compras. Inclui funcionalidades de busca e filtragem de produtos.',
+        imageUrl: '/images/shopsphere-ecommerce.png',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Context API', 'Vite'],
+        liveUrl: 'https://react-e-commerce-eosin-pi.vercel.app/',
+        repoUrl: 'https://github.com/Kakariko2000/react-e-commerce', // Assumindo que este é o repositório
+        caseStudy: {
+            problem: 'Desenvolver uma loja virtual moderna e responsiva, com uma experiência de usuário intuitiva para navegação e compra de produtos. O desafio era criar um sistema de gerenciamento de estado eficiente para o carrinho de compras e filtros.',
+            solution: 'Construí a aplicação utilizando React e TypeScript para uma base de código robusta e escalável. O Tailwind CSS foi empregado para um design responsivo e altamente personalizável. O gerenciamento de estado foi feito com a Context API do React, simplificando a lógica do carrinho e dos filtros de produtos. A arquitetura modular facilita a adição de novas funcionalidades.',
+            tech: 'React para a interface do usuário, TypeScript para segurança de tipo, Tailwind CSS para estilização rápida e responsiva, e Context API para gerenciamento de estado. O projeto foi bundlado com Vite para um desenvolvimento ágil e builds otimizados.',
+        },
+    },
+    {
+        id: 2,
         title: 'Plataforma de E-commerce SPA',
         description: 'Uma Single Page Application completa para uma loja online, com catálogo de produtos, carrinho de compras e checkout.',
         imageUrl: 'https://picsum.photos/seed/project1/800/600',
@@ -60,7 +74,7 @@ export const PROJECTS_DATA: Project[] = [
         },
     },
     {
-        id: 2,
+        id: 3,
         title: 'Dashboard de Análise de Dados',
         description: 'Um painel interativo para visualização de dados em tempo real, com gráficos e filtros dinâmicos.',
         imageUrl: 'https://picsum.photos/seed/project2/800/600',
