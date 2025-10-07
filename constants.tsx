@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Project, SkillCategory } from './types';
-import { GithubIcon, LinkedinIcon, ExternalLinkIcon, CodeIcon, DatabaseIcon, CloudIcon, PaletteIcon, TestTubeIcon, GitMergeIcon, ReactIcon, TypeScriptIcon, NodeIcon, TailwindIcon } from './components/Icons';
+import { GithubIcon, LinkedinIcon, InstagramIcon, ExternalLinkIcon, CodeIcon, DatabaseIcon, CloudIcon, PaletteIcon, TestTubeIcon, GitMergeIcon, ReactIcon, TypeScriptIcon, NodeIcon, TailwindIcon } from './components/Icons';
 
 export const NAV_LINKS = [
     { name: 'Sobre', href: '#about' },
@@ -11,6 +11,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = {
     linkedin: 'https://www.linkedin.com/in/jeymes-lopes-7520a41a3/',
     github: 'https://github.com/Kakariko2000',
+    instagram: 'https://www.instagram.com/jeymeslopes/', // Adicionado link do Instagram
 };
 
 export const SKILLS_DATA: SkillCategory[] = [

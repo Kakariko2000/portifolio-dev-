@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NAV_LINKS, SOCIAL_LINKS } from '../constants';
-import { MenuIcon, XIcon, GithubIcon, LinkedinIcon } from './Icons';
+import { MenuIcon, XIcon, GithubIcon, LinkedinIcon, InstagramIcon } from './Icons';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -141,6 +141,9 @@ const Header: React.FC = () => {
                         </a>
                         <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-text-secondary hover:text-accent transition-colors duration-300">
                             <LinkedinIcon />
+                        </a>
+                        <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-text-secondary hover:text-accent transition-colors duration-300">
+                            <InstagramIcon />
                         </a>
                     </div>
                 </div>

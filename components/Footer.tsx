@@ -1,6 +1,6 @@
 import React from 'react';
 import { SOCIAL_LINKS } from '../constants';
-import { GithubIcon, LinkedinIcon } from './Icons';
+import { GithubIcon, LinkedinIcon, InstagramIcon } from './Icons';
 
 const Footer: React.FC = () => {
     return (
@@ -12,6 +12,9 @@ const Footer: React.FC = () => {
                     </a>
                     <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-text-secondary hover:text-accent transition-colors duration-300">
                         <LinkedinIcon />
+                    </a>
+                    <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-text-secondary hover:text-accent transition-colors duration-300">
+                        <InstagramIcon />
                     </a>
                 </div>
                 <p className="text-text-secondary text-xs font-mono">
