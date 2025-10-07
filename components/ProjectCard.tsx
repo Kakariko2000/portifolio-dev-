@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Project } from '../types';
 import { GithubIcon, ExternalLinkIcon } from './Icons';
@@ -50,9 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, reverse = false }) =
             </ul>
 
             <div className="flex items-center space-x-6">
-                <a href={repoUrl} target="_blank" rel="noopener noreferrer" aria-label="Repositório no GitHub" className="text-text-secondary hover:text-accent transition-colors duration-300">
-                    <GithubIcon />
-                </a>
+                {/* Removido o link e o ícone do GitHub */}
                 <a href={liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Ver projeto online" className="text-text-secondary hover:text-accent transition-colors duration-300">
                     <ExternalLinkIcon />
                 </a>
