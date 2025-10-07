@@ -11,7 +11,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = {
     linkedin: 'https://www.linkedin.com/in/jeymes-lopes-7520a41a3/',
     github: 'https://github.com/Kakariko2000',
-    instagram: 'https://www.instagram.com/jeymeslopes/', // Adicionado link do Instagram
+    instagram: 'https://www.instagram.com/jeymes_dev/', // Link do Instagram atualizado
 };
 
 export const SKILLS_DATA: SkillCategory[] = [
