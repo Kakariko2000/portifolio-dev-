@@ -65,7 +65,7 @@ export const PROJECTS_DATA: Project[] = [
         description: 'Um site profissional e moderno para um artista, apresentando seu portfólio, biografia e informações de contato. Desenvolvido com foco em design responsivo e experiência do usuário.',
         imageUrl: '/images/wanderson-seven.png', // Caminho da imagem atualizado
         tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Design Responsivo'],
-        liveUrl: 'https://wanderson-seven.vercel.app/',
+        liveUrl: 'https://www.wandsevenpf.com.br/', // URL atualizada
         repoUrl: 'https://github.com/Kakariko2000/wanderson-seven',
         caseStudy: {
             problem: 'Criar uma presença online elegante e funcional para um artista, que destaque seu trabalho e seja fácil de navegar em qualquer dispositivo. O desafio era apresentar o conteúdo de forma visualmente atraente e performática.',
