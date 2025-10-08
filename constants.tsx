@@ -88,18 +88,4 @@ export const PROJECTS_DATA: Project[] = [
             tech: 'React para a construção da interface, TypeScript para tipagem segura, Tailwind CSS para estilização e Vite para o ambiente de desenvolvimento. O deploy foi realizado na Vercel para uma hospedagem eficiente e integração contínua.',
         },
     },
-    {
-        id: 4,
-        title: 'Dashboard de Análise de Dados',
-        description: 'Um painel interativo para visualização de dados em tempo real, com gráficos e filtros dinâmicos.',
-        imageUrl: 'https://picsum.photos/seed/project2/800/600',
-        tags: ['React', 'D3.js', 'TypeScript', 'Styled Components', 'REST API'],
-        liveUrl: '#',
-        repoUrl: '#',
-        caseStudy: {
-            problem: 'Apresentar grandes volumes de dados de uma forma intuitiva e interativa, permitindo que os usuários extraiam insights rapidamente. O principal desafio técnico foi renderizar os gráficos de forma performática, mesmo com atualizações constantes de dados.',
-            solution: 'Construí um dashboard componentizado em React. Para as visualizações, integrei a biblioteca D3.js para criar gráficos customizados e de alta performance. O estado dos filtros e dos dados foi gerenciado localmente com React Hooks (useState, useMemo) para otimizar os re-renders. A aplicação consome dados de uma REST API, com tratamento de loading e estados de erro.',
-            tech: 'React foi escolhido pela sua eficiência na manipulação do DOM. D3.js ofereceu a flexibilidade necessária para gráficos complexos. O deploy foi feito na Vercel, aproveitando a integração contínua com o GitHub para atualizações rápidas.',
-        },
-    },
 ];
