@@ -76,6 +76,20 @@ export const PROJECTS_DATA: Project[] = [
     },
     {
         id: 3,
+        title: 'Luana Dantas Fotografia',
+        description: 'Um portfólio profissional para uma fotógrafa, exibindo galerias de fotos, informações sobre serviços e contato. Focado em um design limpo e responsivo para destacar o trabalho visual.',
+        imageUrl: '/images/luana-dantas-fotografia.png',
+        tags: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Design Responsivo'],
+        liveUrl: 'https://luana-dantas.vercel.app/',
+        repoUrl: 'https://github.com/Kakariko2000/luana-dantas-fotografia', // Exemplo de URL de repositório, ajuste se tiver um real
+        caseStudy: {
+            problem: 'Criar um portfólio online para uma fotógrafa que seja visualmente atraente, fácil de navegar e que funcione bem em diferentes dispositivos. O desafio era apresentar as imagens em alta qualidade sem comprometer a performance.',
+            solution: 'Desenvolvi um site com React e TypeScript, utilizando Tailwind CSS para um layout responsivo e moderno. Implementei galerias de imagens otimizadas para carregamento rápido e uma navegação intuitiva. O foco foi na experiência do usuário para que o trabalho da fotógrafa fosse o centro das atenções.',
+            tech: 'React para a construção da interface, TypeScript para tipagem segura, Tailwind CSS para estilização e Vite para o ambiente de desenvolvimento. O deploy foi realizado na Vercel para uma hospedagem eficiente e integração contínua.',
+        },
+    },
+    {
+        id: 4,
         title: 'Dashboard de Análise de Dados',
         description: 'Um painel interativo para visualização de dados em tempo real, com gráficos e filtros dinâmicos.',
         imageUrl: 'https://picsum.photos/seed/project2/800/600',
